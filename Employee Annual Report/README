@@ -1,0 +1,73 @@
+#Employee Yearly Report Dashboard#
+
+
+🎯 Objective
+To analyze, monitor, and visualize key HR metrics such as employee performance, attendance, learning progress, recognitions, and promotion potential using Power BI.
+
+📁 Data Source
+employee_yearly_report.xlsx
+
+Contains 100+ employee records across 40 columns including:
+
+Performance Metrics
+
+Attendance
+
+Learning & Development
+
+Awards & Recognitions
+
+Promotion & Succession Plans
+
+📌 Key Features
+📌 KPI Cards: Total Employees, Avg. Efficiency, Avg. Attendance, Total Bonus, Promotions
+
+📊 Visuals:
+
+Bar Charts: Departmental task completion & efficiency
+
+Pie/Donut: Work mode, Gender, Promotion Split
+
+Line Chart: Joinings over time
+
+Scatter: SLA vs. Efficiency
+
+📚 Learning & Development Panel: Certifications, Learning Hours, Skills Improved
+
+🏆 Recognition Panel: Awards, Appreciations, Peer/Manager Feedback
+
+🔍 Filters: Department, Work Mode, Employment Type, Promotion Status
+
+👤 Employee Search: By Employee ID or Name (table view)
+
+🧮 Custom DAX Measures
+Count of "Yes" for promotions
+
+Average Efficiency
+
+Bonus Paid
+
+Attendance Rate
+
+% Promotions by Department
+
+🖼️ Design Notes
+Minimal slicer layout with dropdowns only (clean UI)
+
+Rounded corners, soft shadows for smooth feel
+
+One-page overview with optional drill-through or bookmarks
+
+🚀 How to Use
+Open .pbix file in Power BI Desktop
+
+Refresh data from employee_yearly_report.xlsx
+
+Publish to Power BI Service to share or schedule refresh
+
+📥 Next Steps
+Add drill-through pages for department-level analysis
+
+Add Q&A feature for natural language filtering
+
+Integrate with RLS (Row-Level Security) for manager-level access
